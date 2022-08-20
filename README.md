@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/lazy-ui.svg)](https://www.npmjs.com/package/lazy-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/lazy-ui.svg)](https://www.npmjs.com/package/lazy-element) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save lazy-ui
+npm install --save lazy-element
 ```
 
 ## Usage
