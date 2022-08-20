@@ -13,15 +13,20 @@ npm install --save lazy-ui
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'lazy-ui'
+import { Button } from 'lazy-ui'
 import 'lazy-ui/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <div>
+      <Button type='primary'>{'Click on 🫥'}</Button>
+      <Button type='success'>{'Success 🍀'}</Button>
+      <Button type='error'>{'Wrong 🍄'}</Button>
+      <Button type='link'>{'Link 👇'}</Button>
+    </div>
+  )
 }
 ```
 
