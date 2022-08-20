@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'lazy-ui'
+import { Button } from 'lazy-ui'
 import 'lazy-ui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <Button type='primary'>{'Click on 🫥'}</Button>
+      <Button type='success'>{'Success 🍀'}</Button>
+      <Button type='error'>{'Wrong 🍄'}</Button>
+      <Button type='link'>{'Link 👇'}</Button>
+    </div>
+  )
 }
 
 export default App
